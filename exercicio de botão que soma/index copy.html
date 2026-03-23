@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Contador</title>
+</head>
+<body>
+
+    <h1 id="contador">0</h1>
+    <button id="botao">Clique aqui</button>
+
+    <script>
+        // Selecionando os elementos
+        let contadorElemento = document.getElementById("contador");
+        let botao = document.getElementById("botao");
+
+        // Variável do contador
+        let numero = 0;
+
+        // Evento de clique
+        botao.addEventListener("click", function() {
+            numero = numero + 1;
+            contadorElemento.innerText = numero;
+        });
+    </script>
+<script src="script6.js"></script>
+
+
+</body>
+</html>
