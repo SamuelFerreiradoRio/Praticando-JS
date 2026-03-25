@@ -1,0 +1,36 @@
+body {
+    background-color: #f4f4f4;
+    display: flex; /* Deixa os elementos flexiveis, permitindo que nós possamos usar algunscomandos de posicionamento dos elementos filhos*/
+   justify-content: center; /* Alinha na direção do flex*/
+   align-items: center; /* Alinha na direção contraria do flex*/
+   height: 100vh; /* Height é a altura do elemento, quando temos vh significa que estamos dando um tamanho pro elemento que corresponde a uma "porcentagem" da tela -> viewport height*/
+}
+
+
+#caixa {
+    background-color: #FFFFFF; /* cor de fundo da caixinha*/
+    width: 350px; /* Largura da caixinha*/
+    padding: 20px; /* Espaços internos*/
+    border: 1px solid #CCCCCC; /* Borda espessura e cor*/
+    border-radius: 10px; /* Arredondamentos do canto da caixa*/
+}
+
+#input-tarefa {
+    width: 70%; /* Calculada em cima do elemento pai (caixa) */
+    padding: 10; /*espaços internos do input */
+    border-radius: 5px; /* Arredondamento das bordas do input*/
+    border: 1px solid #CCCCCC;
+}
+
+#botao-adicionar {
+    padding: 10; 
+    cursor: pointer; /* Transforma o cursor do mouse em mãozinha */
+     border: 1px solid #CCCCCC;
+     border-radius: 5px;
+     background-color: #059905; /* Cor de fundo do botão*/
+     color: #FFFFFF /* Cor do texto do botão*/
+}
+
+#titulo {
+    text-align: center; /* Alinha o texto no centro*/
+}
